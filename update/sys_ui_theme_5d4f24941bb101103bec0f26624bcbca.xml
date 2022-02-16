@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_theme">
+    <sys_ui_theme action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_theme display_value="Cobalt">6f3c9ae153002300dda1ddeeff7b124a</base_theme>
+        <css>/* Header colors */&#13;
+/* Topbar background color*/&#13;
+$navpage-header-bg: #182838&#13;
+/* Bottom border color on topbar */&#13;
+$navpage-header-divider-color: #323f50&#13;
+&#13;
+/* Left nav and navigation toolbar background color */&#13;
+/* Background for navigator (left side only) */&#13;
+$navpage-nav-bg: #182838&#13;
+/* Background for Favorites list, history list, and Connect list background */&#13;
+$navpage-nav-bg-sub: #323f50&#13;
+/* Text color in main navigation */&#13;
+$navpage-nav-color-sub: #bdc0c4&#13;
+/* Divider color in Navigator */&#13;
+$nav-hr-color: #323f50&#13;
+&#13;
+/* Navigator tabs */&#13;
+/* Active nav item underneath search */&#13;
+$nav-highlight-bar-active: #278efc&#13;
+/* Background for currently selected navigation item underneath search */&#13;
+$navpage-nav-selected-bg: #182838&#13;
+/* Color of icons for non inactive nav items */&#13;
+$navpage-nav-unselected-color: #bdc0c4&#13;
+&#13;
+/* Color of outline for search */&#13;
+$navpage-nav-border: #bdc0c4&#13;
+&#13;
+$color-dark: #5b6774&#13;
+&#13;
+$color-blue: #0a66c7&#13;
+$color-accent: #0a66c7&#13;
+&#13;
+$color-green: #03870d&#13;
+&#13;
+$color-red: #d20c0c&#13;
+&#13;
+/* System theme colors */&#13;
+/* Header Colors */&#13;
+/* Search text color */&#13;
+$search-text-color: #ffffff&#13;
+/* Topbar text color */&#13;
+$navpage-header-color: #ffffff&#13;
+/* Topbar button color */&#13;
+$navpage-header-button-color: #ffffff&#13;
+&#13;
+/* Left nav and navigation toolbar background color */&#13;
+/* Navigator hover color */&#13;
+$nav-highlight-main: #3d4853&#13;
+/* Background for expanded navigation items */&#13;
+$subnav-background-color: #303a46&#13;
+/* Text color in main navigation */&#13;
+$navpage-nav-color-sub: #bec1c6&#13;
+/* Text color when hovering over items in main nav */&#13;
+$navpage-nav-mod-text-hover: #ffffff&#13;
+&#13;
+/* Navigator tabs */&#13;
+/* Inactive nav items underneath search */&#13;
+$nav-highlight-bar-inactive: #81878e&#13;
+/* Color of icon for currently active nav item */&#13;
+$navpage-nav-selected-color: #ffffff&#13;
+&#13;
+/* Navigator Application text */&#13;
+/* Color for latest connect messages in right bar */&#13;
+$connect-latest-message: #e6e8ea&#13;
+/* Timestamp header backgrounds in History tab*/&#13;
+$nav-timeago-header-color: #303a46&#13;
+/* Core content text color */&#13;
+$navpage-nav-app-text: #e6e8ea&#13;
+/* Core content text color hover */&#13;
+$navpage-nav-app-text-hover: #ffffff&#13;
+&#13;
+/* Default button/icon color */&#13;
+$navpage-button-color: #ffffff&#13;
+/* Default button/icon hover color */&#13;
+$navpage-button-color-hover: #278efc&#13;
+&#13;
+$color-darkest: #303a46&#13;
+$color-darker: #455464&#13;
+$color-light: #bec1c6&#13;
+$color-lighter: #e6e8ea&#13;
+$color-lightest: #ffffff&#13;
+&#13;
+$color-info: ${$color-blue}&#13;
+$color-negative: #d20c0c&#13;
+$color-positive: #03870d&#13;
+$color-warning: #fc8a3d&#13;
+&#13;
+$color-primary-text: #ffffff;&#13;
+$color-info-text: #ffffff&#13;
+$color-negative-text: #ffffff&#13;
+$color-positive-text: #ffffff&#13;
+$color-warning-text: #ffffff&#13;
+&#13;
+$color-accent-light: #bddcfc&#13;
+$color-accent-lighter: #e5f1ff&#13;
+$color-accent-lightest: #e7f2ff&#13;
+&#13;
+###&#13;
+# 2018 - New Style variables introduced&#13;
+# Note: Boostrap has variables with the name $btn-*-color&#13;
+# Those variables are different than the ones defined below $btn-*-bg-color&#13;
+# and are used for different purposes. The former is text and latter is background color&#13;
+###&#13;
+&#13;
+$btn-info-bg-color: ${$color-info}&#13;
+$btn-info-bg-color-hover: ${$color-info}&#13;
+$btn-info-text: ${$color-info}&#13;
+$btn-info-text-hover: #ffffff&#13;
+$btn-negative-bg-color: ${$color-negative}&#13;
+$btn-negative-bg-color-hover: ${$color-negative}&#13;
+$btn-negative-text: ${$color-negative}&#13;
+$btn-negative-text-hover: #ffffff&#13;
+$btn-positive-bg-color: ${$color-positive}&#13;
+$btn-positive-bg-color-hover: ${$color-positive}&#13;
+$btn-positive-text: ${$color-positive}&#13;
+$btn-positive-text-hover: #ffffff&#13;
+$btn-warning-bg-color: ${$color-warning}&#13;
+$btn-warning-bg-color-hover: ${$color-warning}&#13;
+$btn-warning-text: ${$color-warning}&#13;
+$btn-warning-text-hover: #ffffff</css>
+        <device>browser</device>
+        <name>Need1Css</name>
+        <sys_class_name>sys_ui_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-16 17:38:27</sys_created_on>
+        <sys_id>5d4f24941bb101103bec0f26624bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Need1Css</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_theme_5d4f24941bb101103bec0f26624bcbca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-16 17:38:27</sys_updated_on>
+    </sys_ui_theme>
+</record_update>
