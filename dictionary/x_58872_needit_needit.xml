@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="12" type="collection">
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="13" type="collection">
         <element label="New field 1" max_length="40" name="new_field_1" type="string"/>
+        <element choice="1" label="Select" max_length="40" name="select" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="20" value="2"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="encode_utf8=false" default="12826bf03710200044e0bfc8bcbe5db1" label="New Reference" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
