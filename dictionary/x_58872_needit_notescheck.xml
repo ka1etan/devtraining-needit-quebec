@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="notesCheck" max_length="40" name="x_58872_needit_notescheck" type="collection">
+        <element label="Additional comments" max_length="4000" name="comments" type="journal_input"/>
+        <element dependent="work_notes" dependent_on_field="work_notes" label="Comments and Work notes" max_length="4000" name="comments_and_work_notes" type="journal_list" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="New True/False" max_length="40" name="u_boolean_2" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="u_glide_date_time_4" type="glide_date_time"/>
+        <element label="New Duration" max_length="40" name="u_glide_duration_3" type="glide_duration"/>
+        <element label="New HTML" max_length="65536" name="u_html_1" type="html"/>
+        <element label="New Icon" max_length="100" name="u_icon_2" type="icon"/>
+        <element label="New Insert Timestamp" max_length="40" name="u_insert_timestamp_1" type="insert_timestamp"/>
+        <element attributes="encode_utf8=false" label="New Reference" max_length="32" name="u_reference_1" reference="cmdb" type="reference"/>
+        <element label="Work notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="u_reference_1"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
